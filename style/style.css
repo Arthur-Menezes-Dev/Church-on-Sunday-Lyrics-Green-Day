@@ -1,35 +1,68 @@
 #container{
   text-align: center;
-  background: linear-gradient(to bottom,#AFEEEE,#D8BFD8, #E6E6FA,#FFFAFA,	#F8F8FF);
-  border: 30px, solid, 	#3CB371;
+  background: linear-gradient(to bottom,#DAA520,#B8860B,#FFD700,#FFFF00,	#FFF5EE,#FFFACD  );
+  border: 20px, solid, #F4A460;
+}
+
+header, footer{
+  background: linear-gradient(#FFD700,#F0E68C);
 }
 
 header{
-  Background-color: #F0E68C;
+  height: auto;
 }
 
 .Font1{
-  Color: 	#008B8B;
+  Color: 	#AFEEEE;
   font-size: 60px;
   font-family:Stencil Std, fantasy ;
+  text-shadow: 2px 2px 2px black;
 }
 
 .font2{
-  Color: #E6E6FA;
+  Color: black;
   font-size:18px ;
-  font-family: ;
+  font-family:Palatino, URW Palladio L, serif ;
 }
 
 .font3{
-  font-family: ;
-  font-size: ;
-  color: ;
+  font-family: Georgia, serif ;
+  font-size: 20px;
+  color: 	#AFEEEE;
+  text-shadow: 2px 2px 2px black;
 }
 
 .font4{
-  font-family: ;
-  font-size: ;
-  color: ;
+  font-family: American Typewriter, serif;
+  font-size: 18px ;
+  font-weight: bold;
+}
+
+.font4:hover{
+  font-size: 19px;
+  color: #6A5ACD;
+  text-decoration: underline;
+}
+
+.font4-1{
+  font-family: American Typewriter, serif;
+  font-size: 18px ;
+  font-weight: bold;
+}/*Only for lyric's parts that Show the song's Structure*/
+
+.font4-2{
+  background-color: #DCDCDC;
+} /*Part that we have the action of JS */
+
+.font4-2:hover{
+  background-color: #AFEEEE;
+}
+
+.font5{
+  font-size: 16px;
+  color: #6A5ACD;
+  font-family:Palatino, URW Palladio L, serif;
+  font-weight: bolder;
 }
 
 #Ulnav{
@@ -61,16 +94,52 @@ header{
    justify-content: center;
    align-items:center;
    flex-direction:row;
-   background: linear-gradient(to top, #006400, #008000,#228B22,#00FA9A,#00FF7F,#7FFFD4 );
+   background: linear-gradient(to top,#FFD700,	#F0E68C,	#FFFAF0,#FFFFE0 );
    font-weight: bold;
 }
 
 #mainImage{
   border: Black,solid, 5px;
-  border: 5px dashed darkblue;
+  border: 3px dashed #E0FFFF;
   margin-right:35px ;
 }
 
+main{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  text-align: start;
+}
+
+.lyrics{
+  margin-left: 25px;
+}
+
 footer{
-  Background-color: #F0E68C;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction:row;
+   gap: 100px;
+}
+
+
+
+.footerLinks{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction:column;
+}
+
+.Flink{
+  text-decoration: none;
+  color: 	#4B0082;
+  margin: 5px;
+}
+
+.Flink:hover{
+  color: #191970;
+  font-size: 15px;
 }
